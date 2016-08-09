@@ -9,6 +9,7 @@ class TestShoe < Minitest::Test
       "first_name" => "Sylvia",
       "last_name" => "Plonkton",
       "address" => "27 Highgrove Place",
+      "style" => "Lowa",
       "quantity" => 2,
       "size" => 8
       })
@@ -29,6 +30,10 @@ class TestShoe < Minitest::Test
   def test_has_address()
     assert_equal( '27 Highgrove Place', @shoe.address() )
   end 
+
+  def brand()
+    assert_equal( 'Lowa', @shoe.brand() )
+  end  
 
   def test_has_quantity()
     assert_equal( 2, @shoe.quantity() )

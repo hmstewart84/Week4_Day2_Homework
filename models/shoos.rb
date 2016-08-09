@@ -2,12 +2,13 @@ require_relative( '../db/sql_runner' )
 
 class Shoe
 
-  attr_reader( :first_name, :last_name, :address, :quantity, :size, :id )
+  attr_reader( :first_name, :last_name, :address, :brand, :quantity, :size, :id )
 
   def initialize(options)
     @first_name = options[ "first_name" ]
     @last_name = options[ "last_name" ]
     @address = options[ "address" ]
+    @brand = options[ "brand" ]
     @quantity = options[ 'quantity' ].to_i
     @size = options[ 'size' ].to_i
     @id = options[ 'id' ].to_i
@@ -26,11 +27,13 @@ class Shoe
         first_name,
         last_name,
         address,
+        brand,
         quantity,
         size ) VALUES ( 
         '#{@first_name}',
         '#{@last_name}',
         '#{@address}',
+        '#{@brand}'
         #{@quantity},
         #{@size}
          ) RETURNING *;"

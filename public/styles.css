@@ -1,5 +1,5 @@
 body { 
-    background-image: url('http://orcaislandcabins.com/wp-content/uploads/2014_Brandon-Tigrett_Scottsdale_Commercial_Keen_Boots-115_Retouched_WEB-FB-555x290.jpg');
+    background-image: url('http://www.codyduncan.com/blogimages/2013/12/lofoten-islands-42-ryten-kvalvika.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -8,19 +8,35 @@ body {
 }
 
 h1 {
-    font-family: 'Corben', Georgia, Times, serif;
-        color: #8ABD79;      
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    font: bold;
+        color: white; 
+        text-shadow: 2px 2px 1px #000,
+                     -2px -2px 1px #000,
+                     -2px 2px 1px #000,
+                      2px -2px 1px #000;
+     
 }
 
 
 label {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
-        color: #949292;      
+        color: white;  
+        text-shadow: 2px 2px 1px #000,
+                     -2px -2px 1px #000,
+                     -2px 2px 1px #000,
+                      2px -2px 1px #000;
+    
 }
 
 h2 {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
-      color: #E89A80;
+      color: white;
+      text-shadow: 2px 2px 1px #000,
+                   -2px -2px 1px #000,
+                   -2px 2px 1px #000,
+                    2px -2px 1px #000;
+
 }
 
 body
