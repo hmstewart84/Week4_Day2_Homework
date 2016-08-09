@@ -1,0 +1,9 @@
+<h1>Shoe Orders</h1>
+<h2>Inventory of orders to date:</h2>
+
+<% @shoes.each do |shoe| %>
+  <p>Name: <%= shoe.pretty_name() %></p>
+  <p>Address: <%= shoe.address() %></p>
+  <p>Order: <%= shoe.quantity %> x Size <%= shoe.size %></p>
+  <hr>
+<% end %>
