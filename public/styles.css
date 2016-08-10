@@ -19,7 +19,7 @@ h1 {
 }
 
 
-label {
+label, h3, p {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
         color: white;  
         text-shadow: 2px 2px 1px #000,

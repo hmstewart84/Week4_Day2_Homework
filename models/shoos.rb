@@ -33,7 +33,7 @@ class Shoe
         '#{@first_name}',
         '#{@last_name}',
         '#{@address}',
-        '#{@brand}'
+        '#{@brand}',
         #{@quantity},
         #{@size}
          ) RETURNING *;"
